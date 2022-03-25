@@ -3,7 +3,7 @@ name: autoRun
 on:
   workflow_dispatch:
   #schedule:
-  #  - cron: '0 22 * * *'
+  #  - cron: '01 02 * * *'
 
 jobs:
   build:
