@@ -9,7 +9,7 @@
 
 4. 在checkin.py里填入对应的邮件信息，就能够及时通知到你了。
 
-5. 修改.github/workflows/autoRun.yml；去掉schedule和下一行的"#"并保存。然后大功告成了，默认的是每天早上六点(UTC：22点)自动打卡。
+5. 修改.github/workflows/autoRun.yml；去掉schedule和下一行的"#"并保存。然后大功告成了，默认的是每天早上十点多(UTC：02点)自动打卡。
 
 
 #### 参考教程：
