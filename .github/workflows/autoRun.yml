@@ -1,5 +1,5 @@
 name: autoRun
-#去掉schedule和下一行的井号才能自动运行
+#去掉schedule前面的"#"和下一行的"#"后才能自动运行
 on:
   workflow_dispatch:
   #schedule:
