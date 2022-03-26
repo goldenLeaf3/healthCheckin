@@ -11,7 +11,7 @@
 
    3.2 点击开始抓包，走一遍正常的打卡流程后，点击停止抓包。
 
-   3.3 在抓到的包里找到一个post请求(url为：questionAndAnser/wenjuanSubmit)，这post请求的请求体里包含content内容。将请求体里的“content=”后面的字符串复制粘贴到checkin.py的          mycontent中(注意：若content内容中含有"%2"等符号需要url解码：[点此处](http://www.jsons.cn/urlencode)在线解码，粘贴含有"%2"的内容，点击UrlDecode，再将解码后的内容复制        到checkin.py的mycontent里)。
+   3.3 在抓到的包里找到一个post请求(url为：questionAndAnser/wenjuanSubmit)，这post请求的请求体里包含content内容。将请求体里的“content=”后面的字符串复制粘贴到checkin.py的   mycontent中(注意：若content内容中含有"%2"等符号需要url解码：[点此处](http://www.jsons.cn/urlencode)在线解码，粘贴含有"%2"的内容，点击UrlDecode，再将解码后的内容复制到checkin.py的mycontent里)。
 
 4. 在checkin.py里填入对应的邮件信息，就能够及时通知到你了，不想要邮件通知的，直接把发邮件代码删除。
 
