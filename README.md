@@ -17,6 +17,8 @@
 
 5. 修改.github/workflows/autoRun.yml；去掉schedule前面的"#"和下一行的"#"并保存。然后大功告成了，默认的是每天早上十点多(UTC：02点)自动打卡。
 
+5. Github Actions 的定时可能不太准，可能会延后一二十分钟或一两个小时，解决办法：1提前设置时间、2使用云函数(参考这里：[Github Action的 Schedule 运行不准时的解决办法](https://zhuanlan.zhihu.com/p/379365305)、[为 Python 云函数打包依赖](https://zhuanlan.zhihu.com/p/82139273))。
+
 
 #### 参考教程：
 
